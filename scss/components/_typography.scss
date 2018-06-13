@@ -14,3 +14,24 @@
   color: $font-color-hero;
   text-align: center;
 }
+
+.txt--xs {
+  font-family: $font-family-content;
+  font-size: 14px;
+  color: $font-color-txt-xs;
+  line-height: 30px;
+}
+
+.title--h2 {
+  font-family: $font-family-title;
+  font-size: 24px;
+  color: $font-color-h2;
+  line-height: 30px;
+}
+
+.txt--article {
+  font-family: $font-family-content;
+  font-size: 18px;
+  color: $font-color-txt-article;
+  line-height: 30px;
+}
