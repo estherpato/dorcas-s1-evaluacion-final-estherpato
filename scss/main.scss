@@ -1,3 +1,11 @@
-body {
-background-color: pink;
-}
+@import 'core/variables.scss';
+@import 'core/reset.scss';
+
+@import 'components/buttons.scss';
+@import 'components/hero.scss';
+@import 'components/typography.scss';
+
+@import 'layout/footer.scss';
+@import 'layout/grid.scss';
+
+@import 'pages/home.scss';
