@@ -11,6 +11,10 @@ body {
   height: 100%;
 }
 
+a {
+  text-decoration: none;
+}
+
 .button--menu {
   background-color: #0271bc;
   padding: 15px 14px;
@@ -25,6 +29,18 @@ body {
   width: 45px;
   background-color: #ffffff;
   border-radius: 22.5px;
+}
+
+.button--go {
+  height: 45px;
+  width: 76px;
+  border: 2px solid #f26002;
+  background-color: transparent;
+  border-radius: 22.5px;
+}
+
+.button--go:hover {
+  background-color: #f26002;
 }
 
 .hero {
@@ -97,6 +113,18 @@ body {
   font-size: 18px;
   color: #4a4a4a;
   line-height: 30px;
+}
+
+.link--go {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  color: #f26002;
+  line-height: 45px;
+  text-align: center;
+}
+
+.link--go:hover {
+  color: #ffffff;
 }
 
 /*# sourceMappingURL=main.css.map */
