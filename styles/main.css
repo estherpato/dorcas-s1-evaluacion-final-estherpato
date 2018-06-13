@@ -127,6 +127,32 @@ a {
   color: #ffffff;
 }
 
+.title--1 {
+  text-align: center;
+}
+
+.title--wrapper {
+  font-family: "Roboto Slab", serif;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.txt--wrapper {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 82.5px 138px 138px 138px 127.5px;
+  background-color: #eff9ff;
+}
+
 .article {
   width: 100%;
   display: -webkit-box;
@@ -153,6 +179,26 @@ a {
 
 .button--go {
   margin: 0 22.9rem 4.5rem 1.5rem;
+}
+
+.item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.txt--wrapper {
+  margin: 0 55px;
 }
 
 /*# sourceMappingURL=main.css.map */

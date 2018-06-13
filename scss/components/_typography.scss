@@ -36,7 +36,6 @@
   line-height: 30px;
 }
 
-
 .link--go {
   font-family: $font-family-content;
   font-size: 20px;
@@ -48,4 +47,26 @@
   &:hover {
     color: $font-color-link-go-hover;
   }
+}
+
+.title--1 {
+  text-align: center;
+
+}
+
+.title--wrapper {
+  font-family: $font-family-title;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+  text-align: center;
+
+}
+
+.txt--wrapper {
+  font-family: $font-family-content;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: center;
+
 }

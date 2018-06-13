@@ -1,0 +1,6 @@
+.wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 82.5px 138px 138px 138px 127.5px;
+  background-color: $background-section;
+}
