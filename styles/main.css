@@ -75,7 +75,7 @@ a {
 .hero {
   min-height: 100vh;
   width: 100%;
-  background: url(../../images/cover.jpg) center no-repeat;
+  background: url("../images/cover.jpg") center no-repeat;
   background-size: cover;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -101,7 +101,7 @@ a {
 }
 
 .button--down {
-  margin: 0 13.8rem 5.3rem 13.8rem;
+  margin: 0 138px 53px 138px;
 }
 
 .title--h1 {
@@ -255,20 +255,22 @@ a {
 }
 
 .txt--xs {
-  width: 9rem;
-  margin: 3rem 21.5rem 0 1.5rem;
+  width: 9px;
+  margin: 30px 215px 0 15px;
 }
 
 .title--article {
-  margin: 0 1.5rem 1.5rem 1.5rem;
+  width: 290px;
+  margin: 0 15px 15px 15px;
 }
 
 .txt--article {
-  margin: 0 1.5rem 3rem 1.5rem;
+  width: 290px;
+  margin: 0 15px 30px 15px;
 }
 
 .button--go {
-  margin: 0 22.9rem 4.5rem 1.5rem;
+  margin: 0 229px 45px 15px;
 }
 
 .item {
@@ -300,6 +302,22 @@ a {
   .title--h1 {
     font-size: 80px;
     line-height: 106px;
+  }
+
+  .txt--giro {
+    font-size: 24px;
+  }
+}
+
+@media all and (min-width: 1200px) {
+  .title--h1 {
+    width: 730px;
+    height: 264px;
+  }
+
+  .title--h1 {
+    font-size: 100px;
+    line-height: 132px;
   }
 
   .txt--giro {

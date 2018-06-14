@@ -11,6 +11,11 @@
     font-size: 80px;
     line-height: 106px;
   }
+
+  @media all and (min-width: 1200px) {
+    font-size: 100px;
+    line-height: 132px;
+  }
 }
 
 .txt--giro {
@@ -20,6 +25,10 @@
   text-align: center;
 
   @media all and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media all and (min-width: 1200px) {
     font-size: 24px;
   }
 }
