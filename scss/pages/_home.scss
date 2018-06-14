@@ -7,7 +7,7 @@
 }
 
 .txt--xs {
-  width: 120px;
+  width: 90px;
   margin: 30px 215px 0 15px;
 
   @media all and (min-width: 768px) {
@@ -58,19 +58,59 @@
   @media all and (min-width: 768px) {
     margin: 0 638px 60px 39px;
   }
-  
+
   @media all and (min-width: 1200px) {
     margin: 0 845px 60px 275px;
   }
 }
 
+// GRID SECTION
+
+.grid-box {
+  display: flex;
+  background-color: $background-section;
+  padding-bottom: 60px;
+}
+
 .item {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: flex-end;
   align-items: center;
 }
 
-.txt--wrapper {
-  margin: 0 55px;
+.item-1 {
+
+  @media all and (min-width: 768px) {
+    grid-area: top;
+  }
+}
+
+.item-2 {
+  padding: 22.5px 55px;
+
+}
+
+
+
+.item-mid1 {
+  @media all and (min-width: 768px) {
+    grid-area: mid1;
+  }
+}
+
+.item-mid2 {
+  @media all and (min-width: 768px) {
+    grid-area: mid2;
+  }
+}
+.item-mid3 {
+  @media all and (min-width: 768px) {
+    grid-area: mid3;
+  }
+}
+.item-3 {
+  @media all and (min-width: 768px) {
+    grid-area: bottom;
+  }
 }

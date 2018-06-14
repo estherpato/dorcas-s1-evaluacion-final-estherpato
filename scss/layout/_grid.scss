@@ -1,6 +1,12 @@
 .wrapper {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 82.5px 138px 138px 138px 127.5px;
+  grid-template-rows: 60px 138px 138px 138px 90px;
   background-color: $background-section;
+
+  @media all and (min-width: 768px) {
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-areas: "top top top" "mid1 mid2 mid3" "bottom bottom bottom";
+}
 }
