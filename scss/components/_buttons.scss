@@ -1,6 +1,6 @@
 .button--menu {
   background-color: $background-button-menu;
-  padding: 15px 14px;
+  padding: 15px;
   position: fixed;
   top: 0;
   left: 0;
@@ -27,6 +27,10 @@
   &:hover {
     background-color: $background-button-go-hover;
     color: $font-color-link-go-hover;
+  }
+
+  @media all and (min-width: 768px) {
+    width: 91px;
   }
 
   @media all and (min-width: 1200px) {
@@ -66,11 +70,9 @@
 
     @keyframes size {
       from {
-        transform: translateY(0%);
         transform: scale(2);
       }
       to {
-        transform: translateY(-50%);
         transform: scale(1);
       }
     }

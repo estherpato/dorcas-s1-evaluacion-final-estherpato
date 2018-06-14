@@ -17,7 +17,7 @@ a {
 
 .button--menu {
   background-color: #0271bc;
-  padding: 15px 14px;
+  padding: 15px;
   position: fixed;
   top: 0;
   left: 0;
@@ -298,6 +298,10 @@ a {
 }
 
 @media all and (min-width: 768px) {
+  .button--go {
+    width: 91px;
+  }
+
   .button--mr {
     width: 210px;
   }
@@ -450,15 +454,11 @@ a {
 
 @-webkit-keyframes size {
   from {
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
     -webkit-transform: scale(2);
     transform: scale(2);
   }
 
   to {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
     -webkit-transform: scale(1);
     transform: scale(1);
   }
@@ -466,15 +466,11 @@ a {
 
 @keyframes size {
   from {
-    -webkit-transform: translateY(0%);
-    transform: translateY(0%);
     -webkit-transform: scale(2);
     transform: scale(2);
   }
 
   to {
-    -webkit-transform: translateY(-50%);
-    transform: translateY(-50%);
     -webkit-transform: scale(1);
     transform: scale(1);
   }
