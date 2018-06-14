@@ -78,10 +78,6 @@
   color: $font-color-link-go;
   line-height: 45px;
   text-align: center;
-  transition: color ease 2s;
-  &:hover {
-    color: $font-color-link-go-hover;
-  }
 }
 
 .title--1 {
@@ -120,10 +116,6 @@
   color: $font-color-link-mr;
   line-height: 45px;
   text-align: center;
-  transition: color ease 2s;
-  &:hover {
-    color: $font-color-link-mr-hover;
-  }
 }
 
 .txt--footer {

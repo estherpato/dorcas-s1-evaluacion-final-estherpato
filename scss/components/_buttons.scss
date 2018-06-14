@@ -22,9 +22,10 @@
   border: 2px solid $color-orange;
   background-color: $background-button-go;
   border-radius: 22.5px;
-  transition: background-color ease 2s;
+  transition: background-color ease 2s, color ease 1s;
   &:hover {
     background-color: $background-button-go-hover;
+    color: $font-color-link-go-hover;
   }
 
   @media all and (min-width: 1200px) {
@@ -37,10 +38,12 @@
   width: 184px;
   background-color: $background-button-mr;
   border-radius: 22.5px;
-  transition: background-color ease 4s;
+  transition: background-color ease 2s, color ease 1s;
+
   &:hover {
     border: 2px solid $color-orange;
     background-color: $background-button-mr-hover;
+    color: $font-color-link-mr-hover;
   }
 
   @media all and (min-width: 768px) {
@@ -60,15 +63,15 @@
     animation-duration: 5s;
     animation-iteration-count: 1;
 
-  @keyframes size {
-    from {
-      transform: translateY(0%);
-      transform: scale(2);
-    }
-    to {
-      transform: translateY(-50%);
-      transform: scale(1);
+    @keyframes size {
+      from {
+        transform: translateY(0%);
+        transform: scale(2);
+      }
+      to {
+        transform: translateY(-50%);
+        transform: scale(1);
+      }
     }
   }
-}
 }

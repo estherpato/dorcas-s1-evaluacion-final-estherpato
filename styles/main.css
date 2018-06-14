@@ -45,12 +45,13 @@ a {
   border: 2px solid #f26002;
   background-color: transparent;
   border-radius: 22.5px;
-  -webkit-transition: background-color ease 2s;
-  transition: background-color ease 2s;
+  -webkit-transition: background-color ease 2s, color ease 1s;
+  transition: background-color ease 2s, color ease 1s;
 }
 
 .button--go:hover {
   background-color: #f26002;
+  color: black;
 }
 
 .button--mr {
@@ -58,13 +59,14 @@ a {
   width: 184px;
   background-color: #f26002;
   border-radius: 22.5px;
-  -webkit-transition: background-color ease 4s;
-  transition: background-color ease 4s;
+  -webkit-transition: background-color ease 2s, color ease 1s;
+  transition: background-color ease 2s, color ease 1s;
 }
 
 .button--mr:hover {
   border: 2px solid #f26002;
   background-color: transparent;
+  color: black;
 }
 
 .button--up {
@@ -158,12 +160,6 @@ a {
   color: #f26002;
   line-height: 45px;
   text-align: center;
-  -webkit-transition: color ease 2s;
-  transition: color ease 2s;
-}
-
-.link--go:hover {
-  color: black;
 }
 
 .title--1 {
@@ -192,12 +188,6 @@ a {
   color: #ffffff;
   line-height: 45px;
   text-align: center;
-  -webkit-transition: color ease 2s;
-  transition: color ease 2s;
-}
-
-.link--mr:hover {
-  color: #f26002;
 }
 
 .txt--footer {
