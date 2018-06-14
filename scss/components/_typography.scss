@@ -6,6 +6,11 @@
   line-height: 55px;
   text-align: center;
   text-transform: uppercase;
+
+  @media all and (min-width: 768px) {
+    font-size: 80px;
+    line-height: 106px;
+  }
 }
 
 .txt--giro {
