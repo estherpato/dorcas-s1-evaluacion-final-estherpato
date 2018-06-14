@@ -1,5 +1,5 @@
 .button--menu {
-  background-color: $color-blue;
+  background-color: $background-button-menu;
   padding: 15px 14px;
   position: fixed;
   top: 0;
@@ -9,28 +9,32 @@
 .button--round {
   height: 45px;
   width: 45px;
-  background-color: $color-white;
+  background-color: $background-button-round;
   border-radius: 22.5px;
 }
 
 .button--go {
   height: 45px;
   width: 76px;
-  border: 2px solid $color-orange;
+  border: 2px solid $background-link-go;
   background-color: transparent;
   border-radius: 22.5px;
   &:hover {
-    background-color: $color-orange;
+    background-color: $background-link-go-hover;
   }
 }
 
 .button--mr {
   height: 45px;
   width: 184px;
-  background-color: $color-orange;
+  background-color: $background-link-mr;
   border-radius: 22.5px;
   &:hover {
     border: 2px solid $color-orange;
     background-color: transparent;
 }
+}
+
+.button--up {
+box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }

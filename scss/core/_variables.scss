@@ -1,13 +1,23 @@
 $color-orange: #f26002;
 $color-white: #ffffff;
+$color-pastel-blue: #eff9ff;
 $color-light-blue: #8ccbea;
 $color-blue: #0271bc;
 $color-dark-blue: #304268;
 $color-black: #000;
 $color-grey: #4a4a4a;
+$color-dark-grey-blue: #304268;
+$color-transparent: transparent;
 
-$background-section: #eff9ff;
-$background-footer: #0271bc;
+$background-button-menu: $color-blue;
+$background-button-round: $color-white;
+$background-link-go: $color-transparent;
+$background-link-go-hover: $color-orange;
+$background-link-mr: $color-orange;
+$background-link-mr-hover: $color-transparent;
+
+$background-section: $color-pastel-blue;
+$background-footer: $color-dark-grey-blue;
 
 $font-family-title: 'Roboto Slab', serif;
 $font-family-content: 'Roboto', sans-serif;
@@ -16,6 +26,8 @@ $font-color-hero: $color-white;
 $font-color-txt-xs: $color-light-blue;
 $font-color-h2: $color-black;
 $font-color-txt-article: $color-grey;
+$font-color-footer: $color-white;
+
 $font-color-link-go: $color-orange;
 $font-color-link-go-hover: $color-white;
 $font-color-link-mr: $color-white;
