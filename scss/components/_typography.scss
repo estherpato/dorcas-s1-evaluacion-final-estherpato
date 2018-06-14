@@ -43,7 +43,7 @@
   color: $font-color-link-go;
   line-height: 45px;
   text-align: center;
-
+  transition: color ease 3s;
   &:hover {
     color: $font-color-link-go-hover;
   }
@@ -76,7 +76,7 @@
   color: $font-color-link-mr;
   line-height: 45px;
   text-align: center;
-
+  transition: color ease 3s;
   &:hover {
     color: $font-color-link-mr-hover;
   }
@@ -86,4 +86,8 @@
   font-family: $font-family-content;
   font-size: 14px;
   color: $font-color-footer;
+}
+
+.heart {
+  color: $color-orange
 }

@@ -11,27 +11,32 @@
   width: 45px;
   background-color: $background-button-round;
   border-radius: 22.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .button--go {
   height: 45px;
   width: 76px;
-  border: 2px solid $background-link-go;
-  background-color: transparent;
+  border: 2px solid $color-orange;
+  background-color: $background-button-go;
   border-radius: 22.5px;
+  transition: background-color ease 3s;
   &:hover {
-    background-color: $background-link-go-hover;
+    background-color: $background-button-go-hover;
   }
 }
 
 .button--mr {
   height: 45px;
   width: 184px;
-  background-color: $background-link-mr;
+  background-color: $background-button-mr;
   border-radius: 22.5px;
+  transition: background-color ease 3s;
   &:hover {
     border: 2px solid $color-orange;
-    background-color: transparent;
+    background-color: $background-button-mr-hover;
 }
 }
 
