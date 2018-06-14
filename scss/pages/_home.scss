@@ -67,20 +67,24 @@
 // GRID SECTION
 
 .grid-box {
-margin: 0 auto;
+  margin: 0 auto;
   background-color: $background-section;
   padding-top: 30px;
   padding-bottom: 60px;
 
   @media all and (min-width: 768px) {
-    padding-top: 0;
+    padding-top: 30px;
+  }
+
+  @media all and (min-width: 1200px) {
+    padding-top: 60px;
   }
 }
 
 .item {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: flex-start;
   align-items: center;
 }
 
@@ -95,6 +99,11 @@ margin: 0 auto;
 
 .item-2 {
   padding: 22.5px 55px;
+
+  @media all and (min-width: 768px) {
+    padding: 0 40px;
+
+  }
 
 }
 

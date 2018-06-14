@@ -2,14 +2,14 @@
   @media all and (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 75px 157px 75px;
+    grid-template-rows: 90px 172px 45px;
     grid-template-areas: "top top top" "mid1 mid2 mid3" "bottom bottom bottom";
   }
 
   @media all and (min-width: 1200px) {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 105px 157px 105px;
+    grid-template-rows: 105px 157px 45px;
     grid-template-areas: "top top top" "mid1 mid2 mid3" "bottom bottom bottom";
   }
 }

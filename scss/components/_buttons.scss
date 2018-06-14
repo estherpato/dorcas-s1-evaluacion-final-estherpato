@@ -23,6 +23,7 @@
   background-color: $background-button-go;
   border-radius: 22.5px;
   transition: background-color ease 2s, color ease 1s;
+
   &:hover {
     background-color: $background-button-go-hover;
     color: $font-color-link-go-hover;
