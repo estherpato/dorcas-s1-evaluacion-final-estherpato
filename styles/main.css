@@ -255,7 +255,7 @@ a {
 }
 
 .txt--xs {
-  width: 9px;
+  width: 120px;
   margin: 30px 215px 0 15px;
 }
 
@@ -307,9 +307,41 @@ a {
   .txt--giro {
     font-size: 24px;
   }
+
+  .title--h2 {
+    font-size: 26px;
+    line-height: 45px;
+  }
+
+  .txt--article {
+    font-size: 20px;
+  }
+
+  .txt--xs {
+    width: 216px;
+    margin: 30px 513px 0 39px;
+  }
+
+  .title--article {
+    width: 690px;
+    margin: 0 39px 30px 39px;
+  }
+
+  .txt--article {
+    width: 690px;
+    margin: 0px 39px 30px 39px;
+  }
+
+  .button--go {
+    margin: 0 638px 60px 39px;
+  }
 }
 
 @media all and (min-width: 1200px) {
+  .button--go {
+    width: 160px;
+  }
+
   .title--h1 {
     width: 730px;
     height: 264px;
@@ -322,6 +354,33 @@ a {
 
   .txt--giro {
     font-size: 24px;
+  }
+
+  .txt--xs {
+    font-size: 16px;
+  }
+
+  .title--h2 {
+    font-size: 32px;
+  }
+
+  .txt--xs {
+    width: 360px;
+    margin: 60px 645px 0 275px;
+  }
+
+  .title--article {
+    width: 730px;
+    margin: 0 275px 30px 275px;
+  }
+
+  .txt--article {
+    width: 730px;
+    margin: 0 275px 30px 275px;
+  }
+
+  .button--go {
+    margin: 0 845px 60px 275px;
   }
 }
 

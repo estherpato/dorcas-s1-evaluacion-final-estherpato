@@ -7,22 +7,61 @@
 }
 
 .txt--xs {
-  width: 9px;
+  width: 120px;
   margin: 30px 215px 0 15px;
+
+  @media all and (min-width: 768px) {
+    width: 216px;
+    margin: 30px 513px 0 39px;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 360px;
+    margin: 60px 645px 0 275px;
+  }
+
 }
 
 .title--article {
   width: 290px;
   margin: 0 15px 15px 15px;
+
+  @media all and (min-width: 768px) {
+    width: 690px;
+    margin: 0 39px 30px 39px;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 730px;
+    margin: 0 275px 30px 275px;
+  }
 }
 
 .txt--article {
   width: 290px;
   margin: 0 15px 30px 15px;
+
+  @media all and (min-width: 768px) {
+    width: 690px;
+    margin: 0px 39px 30px 39px;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 730px;
+    margin: 0 275px 30px 275px;
+  }
 }
 
 .button--go {
   margin: 0 229px 45px 15px;
+
+  @media all and (min-width: 768px) {
+    margin: 0 638px 60px 39px;
+  }
+  
+  @media all and (min-width: 1200px) {
+    margin: 0 845px 60px 275px;
+  }
 }
 
 .item {

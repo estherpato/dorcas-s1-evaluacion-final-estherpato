@@ -26,6 +26,10 @@
   &:hover {
     background-color: $background-button-go-hover;
   }
+
+  @media all and (min-width: 1200px) {
+    width: 160px;
+  }
 }
 
 .button--mr {
@@ -37,9 +41,9 @@
   &:hover {
     border: 2px solid $color-orange;
     background-color: $background-button-mr-hover;
-}
+  }
 }
 
 .button--up {
-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
 }
