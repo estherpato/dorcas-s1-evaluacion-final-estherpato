@@ -22,7 +22,7 @@
   border: 2px solid $color-orange;
   background-color: $background-button-go;
   border-radius: 22.5px;
-  transition: background-color ease 3s;
+  transition: background-color ease 2s;
   &:hover {
     background-color: $background-button-go-hover;
   }
@@ -37,13 +37,38 @@
   width: 184px;
   background-color: $background-button-mr;
   border-radius: 22.5px;
-  transition: background-color ease 3s;
+  transition: background-color ease 4s;
   &:hover {
     border: 2px solid $color-orange;
     background-color: $background-button-mr-hover;
+  }
+
+  @media all and (min-width: 768px) {
+    width: 210px;
+  }
+
+  @media all and (min-width: 1200px) {
+    width: 255px;
   }
 }
 
 .button--up {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+
+  &:hover {
+    animation-name: size;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+
+  @keyframes size {
+    from {
+      transform: translateY(0%);
+      transform: scale(2);
+    }
+    to {
+      transform: translateY(-50%);
+      transform: scale(1);
+    }
+  }
+}
 }

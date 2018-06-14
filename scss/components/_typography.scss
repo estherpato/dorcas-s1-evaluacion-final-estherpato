@@ -1,7 +1,7 @@
 .title--h1 {
   font-family: $font-family-title;
   font-size: 42px;
-  font-weight: bold;
+  font-weight: 700;
   color: $font-color-hero;
   line-height: 55px;
   text-align: center;
@@ -78,7 +78,7 @@
   color: $font-color-link-go;
   line-height: 45px;
   text-align: center;
-  transition: color ease 3s;
+  transition: color ease 2s;
   &:hover {
     color: $font-color-link-go-hover;
   }
@@ -92,8 +92,13 @@
   font-family: $font-family-title;
   font-size: 18px;
   line-height: 30px;
-  font-weight: bold;
+  font-weight: 700;
   text-align: center;
+
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+    line-height: 30px;
+  }
 }
 
 .txt--wrapper {
@@ -101,6 +106,10 @@
   font-size: 18px;
   line-height: 30px;
   text-align: center;
+
+  @media all and (min-width: 768px) {
+    font-size: 20px;
+  }
 }
 
 
@@ -111,7 +120,7 @@
   color: $font-color-link-mr;
   line-height: 45px;
   text-align: center;
-  transition: color ease 3s;
+  transition: color ease 2s;
   &:hover {
     color: $font-color-link-mr-hover;
   }

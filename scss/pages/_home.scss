@@ -7,47 +7,47 @@
 }
 
 .txt--xs {
-  width: 90px;
+  // width: 120px;
   margin: 30px 215px 0 15px;
 
   @media all and (min-width: 768px) {
-    width: 216px;
+    // width: 216px;
     margin: 30px 513px 0 39px;
   }
 
   @media all and (min-width: 1200px) {
-    width: 360px;
+    // width: 360px;
     margin: 60px 645px 0 275px;
   }
 
 }
 
 .title--article {
-  width: 290px;
+  // width: 290px;
   margin: 0 15px 15px 15px;
 
   @media all and (min-width: 768px) {
-    width: 690px;
+    // width: 690px;
     margin: 0 39px 30px 39px;
   }
 
   @media all and (min-width: 1200px) {
-    width: 730px;
+    // width: 730px;
     margin: 0 275px 30px 275px;
   }
 }
 
 .txt--article {
-  width: 290px;
+  // width: 290px;
   margin: 0 15px 30px 15px;
 
   @media all and (min-width: 768px) {
-    width: 690px;
+    // width: 690px;
     margin: 0px 39px 30px 39px;
   }
 
   @media all and (min-width: 1200px) {
-    width: 730px;
+    // width: 730px;
     margin: 0 275px 30px 275px;
   }
 }
@@ -67,9 +67,14 @@
 // GRID SECTION
 
 .grid-box {
-  display: flex;
+margin: 0 auto;
   background-color: $background-section;
+  padding-top: 30px;
   padding-bottom: 60px;
+
+  @media all and (min-width: 768px) {
+    padding-top: 0;
+  }
 }
 
 .item {
@@ -80,9 +85,11 @@
 }
 
 .item-1 {
+  margin-bottom: 22.5px;
 
   @media all and (min-width: 768px) {
     grid-area: top;
+    margin-bottom: 0;
   }
 }
 
@@ -90,8 +97,6 @@
   padding: 22.5px 55px;
 
 }
-
-
 
 .item-mid1 {
   @media all and (min-width: 768px) {
@@ -110,7 +115,9 @@
   }
 }
 .item-3 {
+  margin-top: 45px;
   @media all and (min-width: 768px) {
     grid-area: bottom;
+    margin-top: 0;
   }
 }
