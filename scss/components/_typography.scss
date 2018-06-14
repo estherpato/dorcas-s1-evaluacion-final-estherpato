@@ -18,6 +18,10 @@
   font-size: 16px;
   color: $font-color-hero;
   text-align: center;
+
+  @media all and (min-width: 768px) {
+    font-size: 24px;
+  }
 }
 
 .txt--xs {
