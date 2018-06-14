@@ -23,7 +23,7 @@ a {
   left: 0;
 }
 
-.button--down {
+.button--round {
   height: 45px;
   width: 45px;
   background-color: #ffffff;
@@ -40,6 +40,18 @@ a {
 
 .button--go:hover {
   background-color: #f26002;
+}
+
+.button--mr {
+  height: 45px;
+  width: 184px;
+  background-color: #f26002;
+  border-radius: 22.5px;
+}
+
+.button--mr:hover {
+  border: 2px solid #f26002;
+  background-color: transparent;
 }
 
 .hero {
@@ -144,6 +156,19 @@ a {
   font-size: 18px;
   line-height: 30px;
   text-align: center;
+}
+
+.link--mr {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ffffff;
+  line-height: 45px;
+  text-align: center;
+}
+
+.link--mr:hover {
+  color: #f26002;
 }
 
 .wrapper {

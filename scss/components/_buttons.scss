@@ -6,7 +6,7 @@
   left: 0;
 }
 
-.button--down {
+.button--round {
   height: 45px;
   width: 45px;
   background-color: $color-white;
@@ -22,4 +22,15 @@
   &:hover {
     background-color: $color-orange;
   }
+}
+
+.button--mr {
+  height: 45px;
+  width: 184px;
+  background-color: $color-orange;
+  border-radius: 22.5px;
+  &:hover {
+    border: 2px solid $color-orange;
+    background-color: transparent;
+}
 }
