@@ -1,3 +1,16 @@
+.new-section {
+  background-color: $background-newsection;
+  color: $font-color-newsection;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+
+  @media all and (min-width: 768px) {
+  background-color: $background-newsection-tablet;
+}
+}
+
 // ARTICLE
 
 .article {

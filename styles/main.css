@@ -235,6 +235,21 @@ a {
   margin: 0 1.5rem 3rem 1.5rem;
 }
 
+.new-section {
+  background-color: #f26002;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0 10px;
+}
+
 .article {
   width: 100%;
   display: -webkit-box;
@@ -345,6 +360,10 @@ a {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 90px 172px 45px;
     grid-template-areas: "top top top" "mid1 mid2 mid3" "bottom bottom bottom";
+  }
+
+  .new-section {
+    background-color: #304268;
   }
 
   .txt--xs {
